@@ -9,7 +9,7 @@ Also install `ESP8266WiFi.h` and `ESP8266HTTPClient.h` in your ArduinoIDE
 
 ## Usage
 
-Replace these lines according to your server,router and .js files  configuration.
+Replace these lines according to your server, router and .js files  configuration.
 
 ```
 http.begin(client, "http://0.0.0.0:3001/light?&token=your_token");
